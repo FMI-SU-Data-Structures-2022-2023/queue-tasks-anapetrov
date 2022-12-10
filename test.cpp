@@ -7,7 +7,7 @@ TEST_CASE( "1: Kittens" ) {
     REQUIRE( kittens("BB", 3) == 3 );
     REQUIRE( kittens("SSBB", 3) == 2 );
     REQUIRE( kittens("SSBBOOOOOOOSBOOOOOOOOOSB", 5) == 1 );
-    REQUIRE( kittens("SOOSBBOOOOSOOOSBOSOOBOSOSOOBOSOSOOB", 7) == 3 );
+    REQUIRE( kittens("SOOSBBOOOOSOOOSBOSOOBOSOSOOBOSOSOOB", 7) == 3);
 }
 
 TEST_CASE( "2: BFS" ) {
